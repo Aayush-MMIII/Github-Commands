@@ -1,0 +1,85 @@
+*****GIT BASH COMMANDS*****
+
+To check version - git --version
+
+To set user name - git config --global user.name "your name"
+
+To set email id - git config --global user.email "your email"
+
+To check user name - git config --global user.name
+
+To check email id - git config --global user.email
+
+To edit/change email id/name - git config --global --edit
+
+To exit from the menu - press "esc" then type ":wq"
+
+To create repository - git init
+
+To check the files in the repository - ls
+
+To add the files in the staging area - git add <filename>(To add all the files together - -A)
+
+To check the status of the file - git status
+
+To make empty file in the folder - touch <filename>
+
+To commit the file - git commit <filename>(To commit all files - -m "message")
+
+
+To restore the previous commit - git checkout <filename>(To checkout all files - -f)
+
+To check your previous commit history - git log(To view only few commit history - -p -<no. of commits>)
+
+To check the difference between working directory and the staging area - git diff
+
+To directly commit the files without staging the file - git commit -a -m
+
+To remove files from staging area or commit area - 
+	git rm(delete file parmanently)
+	git rm --cached <filename>(file removed from staging/commit area)
+
+To check short status - git status -s
+
+To make git ignore folder - touch .gitignore(it includes all the files which are not necessary and no use to put into the git or server)
+	To ignore only the files present in gitignore folder - /<filename>
+	To ignore all the files present - *.extention
+	To ignore the directory/folder - <foldername>/
+
+Main branch is master by default
+To create branch - git branch <branchname>
+
+To check the branches - git branch
+
+To select a branch - git checkout <branchname>
+
+To merge the changes - git merge <branchname>
+
+To create a new branch and simultaneously switch to that branch - git checkout -b <branchname>
+
+To add remote repository - git remote add <name_of_repository> <link>
+
+To check remote repository - git remote
+
+To check remote repository url - git remote -v
+
+To push the local repository to your github - git push <name_of_repository> <local_repository>
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
